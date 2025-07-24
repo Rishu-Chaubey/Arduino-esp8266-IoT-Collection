@@ -1,0 +1,27 @@
+# Arduino build artifacts
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.elf.*
+*.bin.*
+
+# Arduino temporary files
+*.tmp
+*.bak*.orig
+*~
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# PlatformIO environment
+.pio/
+envs/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db

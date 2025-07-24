@@ -56,12 +56,47 @@ A comprehensive collection of Arduino and ESP8266 projects designed for both beg
 | Servo Motor                 | Motor Control            | Precise positioning            |
 | LEDs & Resistors            | Multiple Projects        | Visual indicators              |
 
-## 📚 Documentation
+📚 Documentation
+Comprehensive guides to help you set up your hardware, install necessary tools, and troubleshoot common issues:
 
-- [Getting Started Guide](docs/getting-started.md) - Setup and first steps
-- [Installation Guide](docs/installation-guide.md) - IDE and libraries setup
-- [Hardware Setup](docs/hardware-setup.md) - Wiring and connections
-- [Troubleshooting](docs/troubleshooting.md) - Common issues and fixes
+Getting Started (docs/Getting-Started.md)
+Stepby-step instructions for installing the Arduino IDE, adding ESP8266 board support, and uploading your first sketch.
+
+Installation Guide (docs/Installation-guide.md)
+Detailed walkthrough of IDE configuration, library installation, and driver setup for Windows, macOS, and Linux.
+
+Hardware Setup (docs/Hardware.md)
+Pinout diagrams for Arduino Uno/Nano and ESP8266 NodeMCU, wiring schematics for common sensors (DHT11, HC-SR04, PIR), and power-supply recommendations.
+
+Troubleshooting (docs/Troubleshooting.md)
+Solutions for upload errors, Wi-Fi connectivity issues, sensor read failures, and general debugging tips.
+
+📦 Resources
+A centralized collection of datasheets, libraries, and external references to support all projects:
+
+Component Datasheets (resources/component-datasheets/)
+PDF datasheets for all sensors, modules, and ICs used across projects, including DHT11, HC-SR04, MQ-2, PCF8574, L298N, and more.
+
+Libraries (resources/libraries/)
+Custom or version-locked Arduino libraries not available via Library Manager (e.g., specific LiquidCrystal_I2C forks, bespoke sensor drivers).
+
+Useful Links (resources/useful-links.md)
+Curated list of external tutorials, official documentation, forum threads, and tool references:
+
+Arduino Official Documentation
+https://docs.arduino.cc/
+
+ESP8266 Arduino Core on GitHub
+https://github.com/esp8266/Arduino
+
+ThingSpeak API Documentation
+https://thingspeak.com/docs
+
+LiquidCrystal_I2C Library
+https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+
+Random Nerd Tutorials
+https://randomnerdtutorials.com/
 
 ## 🤝 Contributing
 
@@ -70,13 +105,6 @@ We welcome contributions! Please feel free to submit pull requests, report bugs,
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Resources
-
-- [Arduino Official Documentation](https://docs.arduino.cc)
-- [ESP8266 Community Forum](https://www.esp8266.com)
-- [Component Datasheets](resources/component-datasheets/)
-- [Useful Links](resources/useful-links.md)
 
 ## ⭐ Getting Help
 
